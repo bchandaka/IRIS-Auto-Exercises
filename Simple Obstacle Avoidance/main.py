@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("images/scene2.jpg")
+# Change the image path to test out other images
+img = cv2.imread("images/scene1.jpg")
 
 cv2.imshow("Original", img)
 # Step 1: Edge Detection
@@ -40,7 +41,7 @@ thickness = 2
 result = cv2.circle(img, center_coordinates, radius, color, thickness)
 cv2.imshow("Max Point", result)
 
-# Step 6: Choose robot direction
+# Step 6: Choose robot direction (left if maxpoint in left third, right for right third, straight for middle third)
 x = maxPoint[0]
 if (x < width/3):
     print("Move to the Left!")

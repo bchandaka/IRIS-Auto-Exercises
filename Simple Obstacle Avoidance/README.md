@@ -1,7 +1,9 @@
 ## Obstacle Avoidance Exercise (9/17/20)
 ### Goals:
 - Learn some basics of opencv and working with image data in python
-- Implement a simple Edge-Based Obstacle Avoidance technique described in the tutorial linked below 
+- Implement a simple Edge-Based Obstacle Avoidance technique described in the tutorial linked below \
+
+** This depends on the ground being a single color, not a super great technique, but good intro **
 ### Setup
 - Install Python 3 
 - pip install opencv-python
@@ -17,4 +19,4 @@ A helpful link: \
 https://opencv-python-tutroals.readthedocs.io/en/latest/index.html
 
 Link to the Tutorial followed: \
-coming soon...
+http://www.roborealm.com/tutorial/Obstacle_Avoidance/slide010.php
